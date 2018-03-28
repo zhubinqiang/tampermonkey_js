@@ -1,23 +1,23 @@
 // ==UserScript==
-// @name         ruanyifeng
+// @name         csdn
 // @namespace    https://github.com/zhubinqiang/tampermonkey_js
 // @version      0.1
-// @description  block some ads
+// @description  remove ads, open read all
 // @author       Zhu,binqiang
-// @match        http://www.ruanyifeng.com/blog/*
+// @match        http://blog.csdn.net/*
 // @grant        none
 // @require      https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
 // ==/UserScript==
+
 
 (function() {
     'use strict';
 
     // Your code here...
     $().ready(function() {
-        $("#gd1").hide();
-        $("#sup-post-2").hide();
-        $("#homepage_pos").hide();
-        $(".entry-sponsor").hide();
+        $("#wrapper").hide();
+        $("#pic").hide();
+        $(".read_more_btn").click();
     });
 
 })();
