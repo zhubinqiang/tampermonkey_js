@@ -15,6 +15,8 @@
     // Your code here...
     $().ready(function() {
         $(".ad").hide();
+        $(".mobile-hide").hide();
+        $("#ad-arc-bottom").hide();
     });
 
 })();
