@@ -7,17 +7,23 @@
 // @match        http://www.ruanyifeng.com/blog/*
 // @grant        none
 // @require      https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js
+
+
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     // Your code here...
-    $().ready(function() {
-        $("#gd1").hide();
-        $("#sup-post-2").hide();
-        $("#homepage_pos").hide();
-        $(".entry-sponsor").hide();
+    $().ready(function(){
+
+        $(".entry-sponsor").remove();
+        $("#related_entries").prev().remove();
+        $("#cre").remove();
+
+        // for home page
+        $("#homepage").next().remove();
+        $("#latest-comments").next().remove();
     });
 
 })();
