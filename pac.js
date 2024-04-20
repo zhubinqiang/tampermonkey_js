@@ -247,11 +247,16 @@ var domains = [
 "qsbr.cf2.quoracdn.net",
 "checkout.stripe.com",
 
+"latex.codecogs.com",
+"en.wikibooks.org",
+
 // ify
 "www.iyf.tv",
 "ppt.iyf.tv",
 "rankv21.iyf.tv",
 "m10.iyf.tv",
+"s3-e1.dnvodcdn.me",
+"s6-e1.dnvodcdn.me",
 "s10-e1.dnvodcdn.me",
 
 "chat.openai.com"
