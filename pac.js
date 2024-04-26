@@ -255,8 +255,16 @@ var domains = [
 "ppt.iyf.tv",
 "rankv21.iyf.tv",
 "m10.iyf.tv",
+"upload.iyf.tv",
+"s1-e1.dnvodcdn.me",
+"s2-e1.dnvodcdn.me",
 "s3-e1.dnvodcdn.me",
+"s4-e1.dnvodcdn.me",
+"s5-e1.dnvodcdn.me",
 "s6-e1.dnvodcdn.me",
+"s7-e1.dnvodcdn.me",
+"s8-e1.dnvodcdn.me",
+"s9-e1.dnvodcdn.me",
 "s10-e1.dnvodcdn.me",
 
 "chat.openai.com"
