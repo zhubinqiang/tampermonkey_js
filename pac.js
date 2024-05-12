@@ -256,6 +256,9 @@ var domains = [
 "rankv21.iyf.tv",
 "m10.iyf.tv",
 "upload.iyf.tv",
+"pptstatic.iyf.tv",
+"static.iyf.tv",
+"static.wyav.tv",
 "s1-e1.dnvodcdn.me",
 "s2-e1.dnvodcdn.me",
 "s3-e1.dnvodcdn.me",
@@ -266,6 +269,9 @@ var domains = [
 "s8-e1.dnvodcdn.me",
 "s9-e1.dnvodcdn.me",
 "s10-e1.dnvodcdn.me",
+
+"www.ondemandchina.com",
+"www.nivod8.tv",
 
 "chat.openai.com"
 ];
@@ -280,5 +286,6 @@ function FindProxyForURL(url, host) {
     }
     return "DIRECT";
 }
+
 
 
