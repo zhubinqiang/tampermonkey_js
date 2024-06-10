@@ -180,6 +180,7 @@ var domains = [
     "twitter.com",
     "t.co",
     "twimg.com",
+    "x.com",
 
     //Google
     "gmail.com",
