@@ -274,6 +274,13 @@ var domains = [
 "www.ondemandchina.com",
 "www.nivod8.tv",
 
+"www.tingtalk.me",
+"cdn.jsdelivr.net",
+
+"docs.docker.com",
+"hub.docker.com",
+"download.docker.com",
+
 "chat.openai.com"
 ];
 
