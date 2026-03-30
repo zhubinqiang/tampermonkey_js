@@ -1,6 +1,8 @@
 
 
-var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
+// var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
+// It seems that using HTTP protocol is faster than using SOCKS5 in ZeroOmega.
+var V2Ray = "PROXY 127.0.0.1:8001; DIRECT;";
 
 var domains = [
 
@@ -280,6 +282,12 @@ var domains = [
 "docs.docker.com",
 "hub.docker.com",
 "download.docker.com",
+
+"latex.codecogs.com",
+"en.wikibooks.org",
+"notebooklm.google",
+"accounts.google.com",
+"spacegoogle.com",
 
 "chat.openai.com"
 ];
